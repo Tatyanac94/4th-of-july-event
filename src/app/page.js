@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import fireworksImage from "./public/fw4.jpg";
 
 
 const EventFlyer = () => (
@@ -6,6 +8,9 @@ const EventFlyer = () => (
     <h1 className="mb-6 text-4xl font-bold text-black underline">
       4th of July Event
     </h1>
+    <div className="mb-4">
+      <Image src={fireworksImage} alt="Fireworks" width={800} height={400} />
+    </div>
     <p className="mb-6 text-xl text-black">
       Join us for a spectacular 4th of July celebration filled with fun,
       fireworks, and festivities!
