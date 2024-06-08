@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import fireworksImage from "./projects/fw1.jpg"; 
+import fireworksImage from "../projects/fw1.jpg";
+
 
 const EventFlyer = () => (
   <div className="flex flex-col font-bold items-center justify-center min-h-screen p-6 bg-gradient-to-br from-red-500 via-white to-blue-500">
