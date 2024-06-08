@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import fireworksImage from "../projects/fw1.jpg";
+import fireworksImage from "./projects/fw4.jpg";
 
 
 const EventFlyer = () => (
